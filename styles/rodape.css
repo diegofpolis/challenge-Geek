@@ -45,6 +45,11 @@
     font-family: var(--fonte-primaria);
 }
 
+.entrada__nome, .entrada__texto::placeholder {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
 .rodape__botao {
     font-family: var(--fonte-primaria);
     font-size: 16px;
