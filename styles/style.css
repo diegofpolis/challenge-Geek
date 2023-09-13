@@ -7,16 +7,17 @@
 }
 
 :root {
-    --cor-primaria: #ffffff;
-    --cor-secundaria: #2A7AE4;
-    --cor-terciaria: #464646;
-    --cor-quaternaria: #f7f0f09f;
+    --cor-I: #ffffff;
+    --cor-II: #2A7AE4;
+    --cor-III: #464646;
+    --cor-IV: #f7f0f09f;
     --cor-hover:#85b4f2d4;
-    --cor-quinternaria: #EAF2FD;
+    --cor-V: #EAF2FD;
+    --cor-VI: #E5E5E5;
     --fonte-primaria: 'Raleway', sans-serif;
 }
 
 body {
-    background-color: var(--cor-fundo-home);
+    background-color: var(--cor-I);
     font-family: var(--fonte-primaria);
 }

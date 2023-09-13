@@ -14,13 +14,13 @@
 .card__titulo {
     font-size: 32px;
     font-weight: bold;
-    color: var(--cor-terciaria);
+    color: var(--cor-III);
 }
 
 .card__botao {
     font-size: 16px;
     font-weight: bold;
-    color: var(--cor-secundaria);
+    color: var(--cor-II);
 }
 .cards {
     display: flex;
@@ -30,19 +30,19 @@
 .nome__produto {
     font-size: 14px;
     font-weight: 500;
-    color: var(--cor-terciaria);
+    color: var(--cor-III);
     margin: .5rem 0;
 }
 
 .valor__produto {
     font-size: 16px;
     font-weight: bold;
-    color: var(--cor-terciaria);
+    color: var(--cor-III);
     margin: .5rem 0;
 }
 
 .detalhes__produto {
     font-size: 16px;
     font-weight: bold;
-    color: var(--cor-secundaria);
+    color: var(--cor-II);
 }
