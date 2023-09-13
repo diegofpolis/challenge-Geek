@@ -23,7 +23,7 @@ section {
 }
 
 .login__titulo {
-    font-size: 18px;
+    font-size: 30px;
     font-weight: bold;
     color: var(--cor-III);
     text-align: center;
@@ -31,15 +31,19 @@ section {
 }
 
 .login__email, .login__password, .login__submit{
-    padding: 20px 70px;
+    width: 350px;
+    height: 60px;
     border: none;
     outline: none;
+    font-size: 18px;
+    
+     
+}
+.login__email::placeholder,
+ .login__password::placeholder {
+   padding-left: 10px;
 }
 
-.login__email::placeholder {
-   
-    
-}
 
 .login__submit {
     color: var(--cor-I);
