@@ -21,6 +21,7 @@
     font-size: 16px;
     font-weight: bold;
     color: var(--cor-II);
+    text-decoration: none;
 }
 .cards {
     display: flex;

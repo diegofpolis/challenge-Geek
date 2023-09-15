@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/cabecalho.css">
     <link rel="stylesheet" href="./styles/rodape.css">
-    <link rel="stylesheet" href="./styles/login.css">
-
-    <title>Login</title>
-    
+    <link rel="stylesheet" href="./styles/novos-produtos.css">
+    <title>Novos Produtos</title>
 </head>
 <body>
     <header>
@@ -24,16 +22,20 @@
                         <img class="cabecalho__icone" src="./img/Icone.svg" alt="icone de pesquisa">
                     </div>
                 </section>
+                    <a class="botao__login" href="#">Menu Administrador</a>
             </section>
         </nav>
     </header>
     <main>
-        <section>
-            <form class="login__container">
-                <label name="titulo"class="login__titulo">Iniciar Sessão</label>
-                <input type="text" class="login__email" placeholder="Escreva seu email">
-                <input type="text" class="login__password" placeholder="Escreva sua senha">
-                <input type="submit" class="login__submit" value="Entrar">   
+        <section class="container">
+            <form class="container__add">
+                <label name="titulo"class="add__titulo">Adicionar novo produto</label>
+                <input type="text" class="add__url" placeholder="URL da imagem">
+                <input type="text" class="add__categotia" placeholder="Categoria">
+                <input type="text" class="add__nome-produto" placeholder="Nome do produto">
+                <input type="text" class="add__Preco" placeholder="Preço do produto">
+                <input type="text" class="add__descricao" placeholder="Descrição do produto">
+                <input type="submit" class="add__produto" value="Adicionar produto">   
             </form>
         </section>
     </main>
